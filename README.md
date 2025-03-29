@@ -9,7 +9,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/shubhanshu1911/Webnotes_fontend.git
+  git clone https://github.com/shubhanshu1911/EmployWise-Assignment.git
 ```
 
 Go to the project directory
@@ -31,7 +31,7 @@ Start the server
 ```
 
 ### API Documentation : 
-[API](https://reqres.in/)
+https://reqres.in/
 
 
 ## Tech Stack :
