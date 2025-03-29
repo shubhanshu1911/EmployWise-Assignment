@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/EmployWise-Assignment/static/js/main.72b9274b.js",
+    "main.js": "/EmployWise-Assignment/static/js/main.d1bcc388.js",
     "index.html": "/EmployWise-Assignment/index.html",
-    "main.72b9274b.js.map": "/EmployWise-Assignment/static/js/main.72b9274b.js.map"
+    "main.d1bcc388.js.map": "/EmployWise-Assignment/static/js/main.d1bcc388.js.map"
   },
   "entrypoints": [
-    "static/js/main.72b9274b.js"
+    "static/js/main.d1bcc388.js"
   ]
 }
