@@ -8,6 +8,12 @@ const UserState = (props) => {
 
     // ✅ Get All Users
     const getUsers = async () => {
+        const authToken = localStorage.getItem("token");
+        if (!authToken) {
+            console.error("Authentication token not found");
+            return;
+        }
+        
         try {
             const response = await fetch(`${host}/api/users?page=2`, {
                 method: 'GET',

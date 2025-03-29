@@ -34,7 +34,7 @@ const Login = (props) => {
     <div className="container" style={{ fontFamily: 'McLaren' }}>
       <div className="row">
         <div className="col-md-6 mx-auto" style={{ maxWidth: '500px' }}>
-          <h2 style={{ paddingBottom: "15px" }}>Login to Webnotes</h2>
+          <h2 style={{ paddingBottom: "15px" }}>Login</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label htmlFor="email" className="form-label fs-5">Email</label>

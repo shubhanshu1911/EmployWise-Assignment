@@ -4,7 +4,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
 import Login from "./Login";
-import Signup from "./Signup"
+import Signup from "./Signup";
+import FindUser from "./FindUser";
 import Alert from "./Alert";
 import {
   BrowserRouter as Router,
@@ -36,7 +37,7 @@ function App() {
             <Route path="/" element={<Home showAlert = {showAlert}/>} />
             <Route path="/login" element={<Login showAlert={showAlert} />} />
             <Route path="/signup" element={<Signup showAlert={showAlert} />} />
-            {/* <Route path="/users" element={<FindUser />} /> */}
+            <Route path="/users" element={<FindUser />} />
             {/* <Route path="/edit/:id" element={<EditUser/>} /> */}
           </Routes>
         </Router>

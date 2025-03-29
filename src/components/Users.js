@@ -16,7 +16,12 @@ const Users = (props) => {
     });
 
     useEffect(() => {
-        getUsers();
+        if (localStorage.getItem('token')) {
+            getUsers();
+        } else {
+            navigate("/login");
+        }
+        // eslint-disable-next-line
     }, []);
 
     const ref = useRef(null);
