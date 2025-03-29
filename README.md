@@ -31,7 +31,7 @@ Start the server
 ```
 
 ### API Documentation : 
-[API](https://reqres.in/)
+https://reqres.in/
 
 
 ## Tech Stack :
